@@ -1,10 +1,10 @@
 pipeline {
     agent any
 
-    tools {
-        jdk 'JDK 17'          // Specify the JDK version installed on Jenkins
-        maven 'Maven 3.9.9'   // Specify the Maven version installed on Jenkins
-    }
+    // tools {
+    //     jdk 'JDK 17'          // Specify the JDK version installed on Jenkins
+    //     maven 'Maven 3.9.9'   // Specify the Maven version installed on Jenkins
+    // }
 
     environment {
         DEPLOY_ENV = 'staging' // Example deployment environment
