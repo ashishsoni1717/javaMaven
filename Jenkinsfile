@@ -1,10 +1,10 @@
 pipeline {
     agent any
 
-    // tools {
-    //     jdk 'Java 17'
-    //     maven "Maven 3.9.9"
-    // }
+    tools {
+        jdk 'Java 17'
+        maven "Maven 3.9.9"
+    }
 
     environment {
         DEPLOY_SERVER = 'your-deployment-server' // Replace with your server
